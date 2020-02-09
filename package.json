@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloluis/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "prettier",
+    "code-formatter"
+  ],
+  "author": "Carloluis Rodríguez <carloluisr@gmail.com> (https://github.com/carloluis)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carloluis/eslint-config/issues"
+  },
+  "homepage": "https://github.com/carloluis/eslint-config#readme"
+}
