@@ -1,7 +1,7 @@
 {
   "name": "eslint-config",
   "version": "1.0.0",
-  "description": "",
+  "description": "ESLint shareable configuration. Including Prettier config.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,10 +11,21 @@
     "url": "git+https://github.com/carloluis/eslint-config.git"
   },
   "keywords": [
+    "code",
+    "quality",
+    "lint",
+    "linter",
     "eslint",
-    "eslint-config",
+    "eslintconfig",
+    "jslint",
     "prettier",
-    "code-formatter"
+    "code formatter",
+    "code style",
+    "lint",
+    "es6",
+    "es6+",
+    "react",
+    "jsx"
   ],
   "author": "Carloluis Rodríguez <carloluisr@gmail.com> (https://github.com/carloluis)",
   "license": "MIT",
