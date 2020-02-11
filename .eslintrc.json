@@ -1,6 +1,6 @@
 {
-  "extends": ["eslint:recommended", "plugin:react/recommended"],
-  "plugins": ["react"],
+  "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
+  "plugins": ["react", "prettier"],
   "env": {
     "es6": true,
     "browser": true,
@@ -16,7 +16,13 @@
       "jsx": true
     }
   },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "rules": {
+    "prettier/prettier": "error",
     "indent": ["error", 2, { "SwitchCase": 1 }],
     "linebreak-style": ["error", "unix"],
     "no-console": ["warn", { "allow": ["warn", "error", "info", "group", "groupEnd"] }],
@@ -53,22 +59,6 @@
     "no-var": "warn",
     "no-mixed-spaces-and-tabs": "error",
     "prefer-const": "warn",
-    "quotes": [
-      2,
-      "single",
-      {
-        "avoidEscape": true,
-        "allowTemplateLiterals": true
-      }
-    ],
-    "max-len": [
-      "error",
-      {
-        "code": 120,
-        "tabWidth": 2,
-        "ignoreUrls": true
-      }
-    ],
     "jsx-quotes": ["error", "prefer-double"],
     "react/jsx-no-undef": "error",
     "react/jsx-uses-react": "error",
